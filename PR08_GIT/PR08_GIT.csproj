@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B56298F-5904-4704-83BB-8586A39EC907}</ProjectGuid>
+    <ProjectGuid>{DD6D1583-B0E7-7813-6F40-0E9F9B7C75AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PR08_GIT</RootNamespace>
     <AssemblyName>PR08_GIT</AssemblyName>
