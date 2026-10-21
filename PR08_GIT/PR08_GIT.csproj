@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B56298F-5904-4704-83BB-8586A39EC907}</ProjectGuid>
+    <ProjectGuid>{DD6D1583-B0E7-7813-6F40-0E9F9B7C75AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PR08_GIT</RootNamespace>
     <AssemblyName>PR08_GIT</AssemblyName>
@@ -46,21 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-=======
-    <Compile Include="Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Auth.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Auth.Designer.cs">
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
->>>>>>> Stashed changes
     <Compile Include="Guest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,15 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< Updated upstream
-=======
-    <EmbeddedResource Include="Admin.resx">
-      <DependentUpon>Admin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> Stashed changes
     <EmbeddedResource Include="Guest.resx">
       <DependentUpon>Guest.cs</DependentUpon>
     </EmbeddedResource>
