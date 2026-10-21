@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PR08_GIT
 {
-    public partial class Form1 : Form
+    public partial class Guest : Form
     {
-        public Form1()
+        public Guest()
         {
             InitializeComponent();
         }
